@@ -9,18 +9,8 @@ const Welcome = () => {
     alignItems: "center",
     height: "100vh"
   };
-  const btn = {
-    height: "100px",
-    width: "200px",
-    cursor: "pointer",
-    background: "black",
-    color: "white",
-    borderRadius: "10%",
-    border: "2px solid grey"
-  };
   return (
     <div style={style} className='container'>
-      {/* <button style={btn}>WELCOME</button> */}
       <h1 >{name}</h1>
     </div>
   )

@@ -7,7 +7,7 @@ function App() {
     <div>
       <Home/>
       <Navbar/>
-      <Welcome/>
+      {/* <Welcome/> */}
     </div>
   )
 }
