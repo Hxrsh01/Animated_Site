@@ -13,8 +13,14 @@ const Navbar = () => {
   return (
     <> 
     <nav style={style}>
-      <div>
         <h1>Logo</h1>
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Service</li>
+        </ul>
       </div>
     </nav>
     </>
